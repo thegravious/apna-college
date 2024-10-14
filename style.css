@@ -1,0 +1,87 @@
+.containerhight{
+    height: 90px !important;
+}
+.containerhight1{
+    height: 200px !important;
+}
+
+.containerhight100vh{
+    height: 75vh;
+    border-bottom: 1px solid black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: -80px;
+    background-color: #f1f1f1;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+.btn-purple{
+    background-color: #6674cc;
+    color: white;
+}
+
+
+
+.btn-outline-purple {
+    --bs-btn-color: #6674cc;
+    --bs-btn-border-color:#6674cc;
+    --bs-btn-hover-color: #6674cc;
+    --bs-btn-hover-border-color: #6674cc;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6674cc;
+    --bs-btn-active-border-color:#6674cc;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6674cc;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #6674cc;
+    --bs-gradient: none
+}
+
+.text-purple{
+    color: #6674cc;
+}
+
+.apnacollegebg{
+    background: url(./img/apnacollegebg.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.bg-purple{
+    background-color: #6674cc;
+}
