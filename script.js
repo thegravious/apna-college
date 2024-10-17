@@ -30,7 +30,7 @@ function countdown2() {
         } else {
             y.innerText = timeup1;
         }
-    }, 2000);
+    }, 1000);
 }
 
 // Countdown 3: Timeup to 100,000
